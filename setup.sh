@@ -1,7 +1,10 @@
 apt update -y
 apt-get update -y
 apt install tor -y
-pip install requests[socks]
+service tor start
+service tor stop
+apt install python3
+pip3 install requests[socks]
 cat > (filename) <<EOF
 ## Configuration file for a typical Tor user
 ## Last updated 9 October 2013 for Tor 0.2.5.2-alpha.
