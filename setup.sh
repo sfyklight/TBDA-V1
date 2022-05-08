@@ -5,7 +5,7 @@ service tor start
 service tor stop
 apt install python3 -y
 pip3 install requests[socks]
-cat > (filename) <<EOF
+
 ## Configuration file for a typical Tor user
 ## Last updated 9 October 2013 for Tor 0.2.5.2-alpha.
 ## (may or may not work for much older or much newer versions of Tor.)
@@ -257,4 +257,4 @@ SocksPort 9850
 ## address manually to your friends, uncomment this line:
 #PublishServerDescriptor 0
 
-EOF
+
