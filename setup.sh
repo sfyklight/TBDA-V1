@@ -3,7 +3,7 @@ apt-get update -y
 apt install tor -y
 service tor start
 service tor stop
-apt install python3
+apt install python3 -y
 pip3 install requests[socks]
 cat > (filename) <<EOF
 ## Configuration file for a typical Tor user
