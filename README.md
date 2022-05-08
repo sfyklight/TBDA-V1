@@ -24,9 +24,7 @@ bash start.sh https://site.com
 
 
 
-Tested: False
 
 
 
-
-Notice: pls wait a test
+# Tested: True (It's Working)
